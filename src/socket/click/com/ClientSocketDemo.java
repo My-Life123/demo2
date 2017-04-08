@@ -10,6 +10,8 @@ import java.net.UnknownHostException;
 public class ClientSocketDemo {
       public static void main(String[] args) {
 		try {
+			
+			
 			//创建连接到本机、端口为25555的socket对象
 			Socket socket=new Socket("127.0.0.1",25555);
 			//将Socket对应的输出流包装成PrintStream
